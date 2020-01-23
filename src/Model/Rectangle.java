@@ -4,8 +4,8 @@ public class Rectangle {
 
     private int x0;
     private int y0;
-    private int width;
-    private int height;
+    private final int width;
+    private final int height;
 
     public Rectangle(int x0, int y0, int width, int height) {
         this.x0 = x0;

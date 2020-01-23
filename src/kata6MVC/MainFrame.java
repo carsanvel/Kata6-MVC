@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 public class MainFrame extends JFrame{
 
     private RectangleDisplay rectangleDisplay;
-    private Map<String, Command> commands;
+    private final Map<String, Command> commands;
     
     public MainFrame(Rectangle rectangle) {
         setTitle("Kata6-MVC");
